@@ -3,6 +3,10 @@ build_sounder
 
 Play sounds when your rspec tests fail/pass
 
+## Requirements
+
+We need to use something that can play files from the command line.  I chose **mpg123** and **ogg123** which can be installed with `sudo apt-get install vorbis-tools mpg123`.  I'm sure you can [hack something else in there](https://github.com/penguinpowernz/build_sounder/blob/master/build_sounder.rb#L22) if need be.
+
 
 ## How to use
 
