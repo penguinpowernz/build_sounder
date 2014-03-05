@@ -1,7 +1,5 @@
 require 'rspec/core/formatters/progress_formatter'
 require 'yaml'
-# dirty hack, see: https://github.com/carlhuda/bundler/issues/183
-$LOAD_PATH.concat Dir.glob("#{ENV['rvm_path']}/gems/#{ENV['RUBY_VERSION']}@global/gems/*/lib")
 
 class BuildSounder < RSpec::Core::Formatters::ProgressFormatter
 
