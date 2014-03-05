@@ -1,1 +1,1 @@
---color --require ~/src/build_sounder/bulb_sounder.rb --format BuildSounder
+--color --require ~/src/build_sounder/build_sounder.rb --format BuildSounder
